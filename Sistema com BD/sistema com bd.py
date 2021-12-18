@@ -3,9 +3,9 @@ import json
 database_cadastro = {}
 database_login = {}
 while True:
-    print('[ 1 ] - Cadastrar no sistema\n'
-            '[ 2 ] - Entrar no sistema\n'
-            '[ 3 ] - Sair do sistema')
+    print('''[ 1 ] - Cadastrar no sistema
+             [ 2 ] - Entrar no sistema
+             [ 3 ] - Sair do sistema''')
     opc = int(input('Sua opção: '))
     if opc == 1:
         database_cadastro['Usuario'] = input('Usuário: ')
