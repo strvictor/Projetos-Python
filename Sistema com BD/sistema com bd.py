@@ -9,15 +9,15 @@ while True:
         database_cadastro['Usuario'] = input('Usuário: ')
         database_cadastro['Senha'] = input('Senha: ')
         conversao = json.dumps(database_cadastro)
-        requisicao = requests.post('https://teste-ce0c3-default-rtdb.firebaseio.com/.json', data=conversao)
+        requisicao = requests.post('https://teste2-d5c1f-default-rtdb.firebaseio.com/.json', data=conversao)
         print('Cadastro realizado com sucesso!')
     elif opc == 2:
         print('Informe seus dados abaixo')
         database_login['Usuario'] = input('Usuário: ')
-        requisicao_login = requests.get('https://teste-ce0c3-default-rtdb.firebaseio.com/.json')
+        requisicao_login = requests.get('https://teste2-d5c1f-default-rtdb.firebaseio.com/.json')
         caminhos = requisicao_login.json()
         for caminho in caminhos:
-            requisicao_login = requests.get(f'https://teste-ce0c3-default-rtdb.firebaseio.com/{caminho}.json')
+            requisicao_login = requests.get(f'https://teste2-d5c1f-default-rtdb.firebaseio.com/{caminho}.json')
             verifica = requisicao_login.json()
             if database_login['Usuario'] in verifica['Usuario']:
                 while True:
