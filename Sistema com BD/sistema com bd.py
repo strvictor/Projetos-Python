@@ -25,6 +25,7 @@ while True:
                     if database_login['Senha'] == verifica['Senha']:
                         print('Login realizado com sucesso!')
                         break
+                    
                     else:
                         print('Senha incorreta, quer tentar novamente ?\n[ 1 ] - para tentar novamente [ 2 ] - para sair')
                         opc2 = int(input('Sua opção: '))
@@ -35,3 +36,12 @@ while True:
         break
     else:
         print('Só é permitido um dos valores abaixo!')
+        
+        
+def Verifica_Usuario():
+    database_login['Senha'] = input('Senha: ')
+    if database_login['Senha'] == verifica['Senha']:
+        print('Login realizado com sucesso!')
+    else:
+        print('Senha incorreta, quer tentar novamente ?\n[ 1 ] - para tentar novamente [ 2 ] - para sair')
+        opc2 = int(input('Sua opção: '))
