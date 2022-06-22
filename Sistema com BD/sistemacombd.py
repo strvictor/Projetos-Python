@@ -42,7 +42,7 @@ while True:
                     print('Login realizado com sucesso!')
                     print('*'*28)
                     break
-                    
+        
                 else:
                     print("=======================")
                     print('Senha Incorreta')
