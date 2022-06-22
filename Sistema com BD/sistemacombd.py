@@ -10,9 +10,12 @@ while True:
     if opc == 1:
         print("==============================")
         database_cadastro['Usuario'] = input('Usuário: ')
-        database_cadastro['Senha'] = input('Senha: ')
+        database_cadastro['Senha'] = input('Senha: '
+                                           )
         conversao = json.dumps(database_cadastro)
+        
         requisicao = requests.post('https://bancodedados-54d83-default-rtdb.firebaseio.com/.json', data=conversao)
+        
         print("================================")
         print('Cadastro realizado com sucesso!')
         print("================================")
@@ -33,7 +36,6 @@ while True:
             
             if database_login['Usuario'] in verifica['Usuario']:
                 
-               
                 database_login['Senha'] = input('Senha: ')
                 
                 if database_login['Senha'] == verifica['Senha']:
@@ -49,7 +51,7 @@ while True:
                     print("=======================")
                     break
               
-        if database_login['Usuario'] not in verifica['Usuario']:
+        else:
             print("=======================")
             print('Usuário não encontrado!')
             print("=======================")
@@ -60,4 +62,5 @@ while True:
         print('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
         break
     else:
+        print('')
         print('Só é permitido um dos valores abaixo!')
