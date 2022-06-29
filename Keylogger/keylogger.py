@@ -34,7 +34,13 @@ def writeLog(key):
         "Key.backspace": "-",
         "Key.right": "",
         "Key.left": "",
-        "Key.tab": "    "
+        "Key.tab": "    ",
+        "Key.shift": "",
+        "Key.down": "",
+        "Key.up": "",
+        "Key.media_volume_up": "",
+        "Key.media_volume_down": "",
+        "Key.ctrl_l": ""
     }
 
     #converter a tecla pressionada para string
