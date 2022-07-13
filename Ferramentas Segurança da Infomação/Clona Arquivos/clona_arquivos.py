@@ -5,13 +5,13 @@ from os.path import isfile
 import datetime
 
 #config firebase
-firebaseConfig = {'apiKey': "AIzaSyAisBHHaVOxZNBdro9gA2GEXoPwvf5Mvx0",
-  'authDomain': "bancodedados-54d83.firebaseapp.com",
-  'databaseURL': "https://bancodedados-54d83-default-rtdb.firebaseio.com",
-  'projectId': "bancodedados-54d83",
-  'storageBucket': "bancodedados-54d83.appspot.com",
-  'messagingSenderId': "292092738374",
-  'appId': "1:292092738374:web:b1d3a2a3117a13be7a0347"}
+firebaseConfig = {'apiKey': "coloque as informações da sua conta do firebase",
+  'authDomain': "coloque as informações da sua conta do firebase",
+  'databaseURL': "coloque as informações da sua conta do firebase",
+  'projectId': "coloque as informações da sua conta do firebase",
+  'storageBucket': "coloque as informações da sua conta do firebase",
+  'messagingSenderId': "coloque as informações da sua conta do firebase",
+  'appId': "coloque as informações da sua conta do firebase"}
 
 firebase = pyrebase.initialize_app(firebaseConfig)
 
