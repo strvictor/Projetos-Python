@@ -1,0 +1,3 @@
+esse script virus.py  faz o envio do log.txt que o keylogger capturou para o storage do firebase, logo apos ele baixa uma imagem e um mp3
+e altera o wallpaper do windows para a imagem baixada e toca a musica baixada, ele permanece em um loop, sempre trocando o plano de fundo pela imagem baixada e repetindo a musica, para encerra-lo mate o processo no gerenciador de tarefas
+se estiver com duvidas sobre algo, me chame no wpp https://api.whatsapp.com/send?phone=5591993233036
