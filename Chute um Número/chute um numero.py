@@ -18,3 +18,4 @@ while True:
         print(f'Parabéns voce acertou!\nao todo foram {tentativas} tentativas')
         print('')
     tentativas += 1
+    break
