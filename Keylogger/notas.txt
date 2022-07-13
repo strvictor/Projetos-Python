@@ -1,1 +1,0 @@
-Pra enviar o email precisa estar configurado o outlook com alguma conta no windows, ai ele ja faz a integração e envia o anexo com os logs digitados
