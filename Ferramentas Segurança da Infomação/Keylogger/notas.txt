@@ -2,4 +2,5 @@ keylogger.py faz a captura das teclas do teclado e armazena em um arquivo log.tx
 você pode modifica-lo para atender suas necessidades
 o arquivo enviaporemail.py faz o envio do log.txt para seu email
 Pra enviar o email precisa estar configurado o outlook com alguma conta no windows, ai ele ja faz a integração e envia o anexo com os logs digitados
+Você pode encontrar o .exe de ambos arquivos.py, baixe e experimente seu funcionamento, o log ficará em usuario_atual/.keylogger/log.txt
 se estiver com duvidas sobre algo, me chame no wpp https://api.whatsapp.com/send?phone=5591993233036
