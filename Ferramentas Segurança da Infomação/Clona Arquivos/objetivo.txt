@@ -1,0 +1,3 @@
+Esse script faz basicamente a copia dos arquivos passados no paramento da função para o armazenamento do firebase, configurei para apenas fazer o upload se o arquivo for menor que 50MB
+logo apos o envios de todos os arquivos (idependentes da extensão) o script se encerra.
+se estiver com duvidas sobre algo, me chame no wpp https://api.whatsapp.com/send?phone=5591993233036
